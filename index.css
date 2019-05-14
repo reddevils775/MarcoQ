@@ -3,4 +3,33 @@
 .slider .carousel-item{
     height: 500px;
 }
+/* End Slider */
 
+/* Navbar */
+.dropdown{
+    position: relative;
+    display: inline-block;
+ }
+
+ .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    z-index: 1;
+    list-style: none;
+ }
+
+ .dropdown:hover .dropdown-content{
+    display: block;
+ }
+
+ .dropdown-menu-btn{
+    margin-left: 80px;
+ }
+
+/* End NavBar */
+
+/* Footer */
+.thongtin i{
+   font-size: 50px;
+}
